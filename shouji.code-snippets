@@ -2,13 +2,9 @@
 	"vue代码": {
 		"prefix": "shouji",
 		"body": [
-			"<style>",
-        	"    html{",
-            "        font-size: 100px;",
-        	"    }",
-    		"</style>",
 			"<script>",
-			//根据当前设备的宽度，动态计算出rem的换算比例，实现页面中元素的等比缩放
+			// html{font-size: 100px;}
+			// 根据当前设备的宽度，动态计算出rem的换算比例，实现页面中元素的等比缩放
 			"    (function () {",
 			"        function computedFont() {",
 			"            let winW = document.documentElement.clientWidth,",
