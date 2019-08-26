@@ -1,0 +1,15 @@
+{
+	"vue-js": {
+		"prefix": "vue",
+		"scope": "javascript,typescript",
+		"body": [
+			"let vm = new Vue({",
+			"    el: '#app',",
+			"    data: {",
+			"",
+			"    },",
+			"});",
+		],
+		"description": "vue-js 初始化"
+	}
+}

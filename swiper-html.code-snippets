@@ -1,0 +1,22 @@
+{
+	"swiper-html": {
+		"scope": "html,typescript",
+		"prefix": "swiper",
+		"body": [
+			"<div class=\"swiper-container\">",
+			"    <div class=\"swiper-wrapper\">",
+			"        <div class=\"swiper-slide\">${1:slider1}</div>",
+			"        <div class=\"swiper-slide\" id=\"a2\">${2:slider2}</div>",
+			"        <div class=\"swiper-slide\" id=\"a3\">${3:slider3}</div>",
+			"    </div>",
+			"    <!--分页器。如果放置在swiper-container外面，需要自定义样式。-->",
+			"    <div class=\"swiper-pagination\"></div>",
+			"    <!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->",
+        	"    <div class=\"swiper-button-prev\"></div>",
+        	"    <!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->",
+        	"    <div class=\"swiper-button-next\"></div>",
+    		"</div>"
+		],
+		"description": "swiper-html 初始化"
+	}
+}

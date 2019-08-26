@@ -1,0 +1,12 @@
+{
+	"jquery animate": {
+		"scope": "javascript,typescript",
+		"prefix": "jqAnimate",
+		"body": [
+			"$(\"${1:#box}\").animate({",
+			"    $3",
+			"}, ${2:1000})",
+		],
+		"description": "jQuery 动画"
+	}
+}

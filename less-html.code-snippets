@@ -1,0 +1,9 @@
+{
+	"Print to console": {
+		"scope": "html,typescript",
+		"prefix": "link-less",
+		"body": [
+			"<link rel=\"stylesheet/less\" type=\"css\" href=\"$1\">",
+		],
+	}
+}

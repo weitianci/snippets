@@ -1,0 +1,10 @@
+{
+	"mark-html": {
+		"scope": "html,typescript",
+		"prefix": "mark",
+		"body": [
+			"<mark>$1</mark>",
+		],
+		"description": "标记"
+	}
+}

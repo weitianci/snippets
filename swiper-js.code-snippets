@@ -1,0 +1,20 @@
+{
+	"swiper-js": {
+		"scope": "javascript,typescript",
+		"prefix": "swiper",
+		"body": [
+			"var mySwiper = new Swiper('.swiper-container', {",
+			"    autoplay: true,//可选选项，自动滑动",
+			"    loop: true,//实现无缝滚动",
+            "    pagination: {//分页器",
+            "        el: '.swiper-pagination',",
+            "    },",
+            "    navigation: {//左右按钮",
+            "        nextEl: '.swiper-button-next',",
+            "        prevEl: '.swiper-button-prev',",
+            "    },",
+			"})",
+		],
+		"description": "swiper-js 初始化"
+	}
+}

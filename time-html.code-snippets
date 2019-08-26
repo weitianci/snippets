@@ -1,0 +1,10 @@
+{
+	"time-html": {
+		"scope": "html,typescript",
+		"prefix": "time",
+		"body": [
+			"<time>$1</time>",
+		],
+		"description": "时间"
+	}
+}
