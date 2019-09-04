@@ -1,0 +1,36 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "w-VueLuYou",
+		"body": [
+			"let home = {",
+			"    data() {",
+			"        return {",
+			"            con: \"首页\"",
+			"        }",
+			"    },",
+			"    template: \"<div>{{con}}</div>\"",
+			"};",
+			"let login = {",
+			"    data() {",
+			"        return {",
+			"            logo: \"登录\"",
+			"        }",
+			"    },",
+			"    template: \"<div>{{logo}}</div>\"",
+			"};",
+			"let routes = [{ path: \"/home\", component: home }, { path: \"/login\", component: login }];",
+			"let router = new VueRouter({",
+			"    routes: routes",
+			"});",
+			"let vm = new Vue({",
+			"    el: '#app',",
+			"    data: {",
+			"",
+			"    },",
+			"    router",
+			"});"
+		],
+		"description": "Vue 路由器"
+	}
+}

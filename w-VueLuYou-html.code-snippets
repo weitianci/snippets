@@ -1,0 +1,14 @@
+{
+	"Print to console": {
+		"scope": "html,typescript",
+		"prefix": "w-VueLuYou",
+		"body": [
+			"<div id=\"app\">",
+        	"    <router-link to=\"${1:/home}\" tag=\"button\">${2:首页}</router-link>",
+        	"    <router-link to=\"${3:/login}\" tag=\"button\">${4:登录页}</router-link>",
+        	"    <router-view></router-view>",
+    		"</div>",
+		],
+		"description": "Vue 路由器"
+	}
+}
